@@ -274,6 +274,11 @@ public class LinkedPositionalList<E> implements PositionalList<E> {
 	 * @see gt.edu.url.examen2.problema3.PositionalList#swap(gt.edu.url.examen2.problema3.Position, gt.edu.url.examen2.problema3.Position)
 	 */
 	public void swap(Position<E> p, Position<E> q) {
+		E temp = p.getElement();
+		E temp1= q.getElement();
+		
+		set(p,temp1);
+		set(q,temp);
 		
 		
 	}

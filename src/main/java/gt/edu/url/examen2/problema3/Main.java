@@ -22,7 +22,7 @@ public class Main {
 	        P2 = n1.addAfter(P2, "D");
 	        P3 = P2;
 	        n1.addAfter(P3, "E");
-	        n1.swap(P1, P2);
+	        n1.swap(P1, P3);
 	        String recorrer = null;
 	        System.out.println("Punteros");
 	        System.out.println(P1.getElement());
